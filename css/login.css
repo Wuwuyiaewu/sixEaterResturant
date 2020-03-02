@@ -1,0 +1,70 @@
+/* title */
+.title{
+	text-align: center;
+}
+.title_head{
+	padding-top: 50px;
+	padding-bottom: 35px;
+}
+.title_head h1 img{
+
+}
+/* login area */
+.login_pale{
+	padding-bottom: 15px;
+}
+.login_wrap{
+	box-shadow: 3px 3px 4px 0 rgba(0,0,0,0.16);
+	width: 50%;
+	margin: auto;
+	width: 300px;
+	border-top: 3px solid #FF5E45;
+}
+.login_pale_title{
+	font-size: 18px;
+	margin-top: 12px;
+}
+.email_area,
+.password_area{
+	font-size: 16px;
+	line-height: 20px;
+	margin: 15px;
+	text-align: left;
+}
+.email_area label,.email_area input,
+.password_area label,.password_area input{
+	display: inline-block;
+	width: 100%;
+}
+.goRegister{
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 19px;
+	color: #FF5E45;
+}
+.post_area{
+	margin: 15px;
+	text-align: justify;
+}
+.post_area input{
+	display: inline-block;
+	width: calc(50% - 20px);
+	font-size: 14px;
+	line-height: 32px;
+	border-radius: 3px;
+	border: none;
+	color: #fff;
+}
+.post_area input[type="reset"]{
+	background: rgba(0,0,0,0.35);
+	margin-right: 10px;
+}
+.post_area input[type="submit"]{
+	background: #F56C23;
+	margin-left: 10px;
+}
+form:after{
+	content: "";
+	display: block;
+	clear: both;
+}
